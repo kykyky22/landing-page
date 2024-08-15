@@ -23,13 +23,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1000px;
     margin: auto;
+    padding-top: 10px;
 }
 
 .header-logo {
     color: white;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .header-link ul {
@@ -38,8 +40,54 @@ body {
     gap: 16px;
 }
 
-a {
+li a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 50px 0px;
+    gap: 32px;
+}
+
+.left {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.left p {
+    color: #e5e7eb;
+    font-size: 18px;
+    max-width: 450px;
+}
+
+.left a {
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    max-width: 100px;
+}
+
+.right {
+    background-color: #6d747e;
+    color: #e5e7eb;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
