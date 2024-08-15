@@ -91,3 +91,27 @@ li a {
     align-items: center;
 }
 
+.sri {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.squares li {
+    list-style-type: none;
+    max-width: 150px;
+    text-align: center;
+}
+
+li img {
+    border: 2.5px solid #3882f6;
+    border-radius: 10px;
+}
