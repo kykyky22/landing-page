@@ -168,3 +168,12 @@ li img {
     padding: 5px 15px;
     border-radius: 10px;
 }
+
+.footer {
+    max-width: 1000px;
+    margin: auto;
+    color: #6d747e;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
