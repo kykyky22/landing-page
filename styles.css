@@ -115,3 +115,56 @@ li img {
     border: 2.5px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote-bg {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source {
+    font-weight: 900;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.cta-container {
+    padding: 60px 80px;
+}
+
+.cta {
+    display: flex;
+    max-width: 900px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.text .bold{
+    font-weight: bold;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
